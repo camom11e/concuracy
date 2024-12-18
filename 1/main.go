@@ -3,13 +3,14 @@ package main
 import (
 	"fmt"
 	"sync"
-	"time"
 )
 
 var mutex sync.Mutex
 var global int
+var wg sync.WaitGroup
 
 func incriment() int {
+	defer wg.Done()
 	mutex.Lock()
 	global += 1
 	mutex.Unlock()
@@ -17,8 +18,9 @@ func incriment() int {
 }
 func main() {
 	for i := 0; i < 5; i++ {
+		wg.Add(1)
 		go incriment()
 	}
-	time.Sleep(time.Second)
+	wg.Wait()
 	fmt.Printf("%d\n", global)
 }

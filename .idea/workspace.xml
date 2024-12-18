@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68b98608-2d9e-43f2-981d-c018accd376a" name="Changes" comment="" />
+    <list default="true" id="68b98608-2d9e-43f2-981d-c018accd376a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/3/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/1/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/2/main.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +38,7 @@
   "keyToString": {
     "DefaultGoTemplateProperty": "Go File",
     "Go Build.go build concuracy.executor": "Run",
+    "Go Build.go build main.go.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
@@ -46,7 +52,7 @@
     "onboarding.tips.debug.path": "C:/Users/Lenovo/GolandProjects/concuracy/main.go"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build main.go">
     <configuration name="go build concuracy" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
       <module name="concuracy" />
       <working_directory value="$PROJECT_DIR$" />
@@ -56,6 +62,19 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="concuracy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/2/main.go" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build main.go" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
